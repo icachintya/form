@@ -1,0 +1,86 @@
+<html>
+</html>
+<head>
+ <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF00FF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DDA0DD;
+}
+
+.active {
+  background-color:#FF69B4;
+}
+header {
+  text-align: center;
+  background-color:#FFC0CB;
+}
+article {
+  text-align: center;
+  background-color:#FFFAF0;
+}
+section {
+  text-align: center;
+  background-color:#DDA0DD;
+
+</style>
+</head>
+<body>
+<header>
+<h1> Pemrograman WEB </h1>
+ <ul>
+  <li><a href="menu1.html">Home</a></li>
+  <li><a class="active" href="formdaftar.html"></a></li>
+  <li><a href="#">Kontak</a></li>
+ </ul>
+</header>
+<section>
+ <form action="#">
+ <h2> FORM DAFTAR </h2>
+    <label> Nama Depan:</label><br>
+    <input type="text"><br><br>
+    <label> Nama Belakang:</label><br>
+    <input type="text"><br><br>
+    <label for="cars"> Tempat Lahir: </label>
+    <select id="card" name="cars">
+    <option value="Madiun">Madiun</option>  
+    <option value="Kediri">Kediri</option> 
+    <option value="Jombang">Jombang</option> 
+    <option value="Ponorogo">Ponorogo</option> 
+    <option value="Ngawi">Ngawi</option> 
+    </select><br><br>
+    <label> Tanggal Lahir:</label><br>
+    <input type="date"><br><br>
+    <label> Jenis Kelamin </label>
+      <input type="radio" id="Laki-laki">
+      <label> Laki-laki</label>
+      <input type="radio" id="Perempuan">
+      <label> Perempuan</label><br><br>
+    <label> Nama Depan:</label><br>
+    <input type="text"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</section>
+<footer>
+ <p> Created by IcaChintyasari </p>
+</footer>
+</body>
+</html>
