@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF00FF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DDA0DD;
+}
+
+.active {
+  background-color:#FF69B4;
+}
+header {
+  text-align: center;
+  background-color:#FFC0CB;
+}
+article {
+  text-align: center;
+  background-color:#FFFAF0;
+}
+section {
+  text-align: center;
+  background-color:#DDA0DD;
+}
+</style>
+</head>
+<body>
+<header> <br>
+  <h1 style="color: white" > PEMPROGRAMAN WEB </h1>
+<ul>
+  <li><a href="home.html">Home</a></li>
+   <li><a class="active" href="#Daftar">Daftar</a></li>
+   <li><a href="absensi.html">Presensi</a></li>
+   <li><a href="login.html">Login</a></li>
+</ul>
+</header>
+<section>
+  <style type="text/css">
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+  </style>
+</head>
+<body>
+  <table border="1" align="center">
+    <h2 style="color: white" >Rekap Absen</h2>
+    <tr bgcolor="#228B22">
+      <th style="color: white" rowspan="2">No</th>
+      <th style="color: white" rowspan="2" width="200"> Nama</th>
+      <th style="color: white" rowspan="2"> JK</th>
+      <th style="color: white" colspan="4">September</th>
+    </tr> 
+    <tr>
+      <th style="color: white">>1</th>
+      <th style="color: white">>2</th>
+      <th style="color: white">>3</th>
+      <th style="color: white">>4</th>
+    </tr>
+<tr>
+  <td style="color: white">1</td>
+  <td style="color: white">Alin</td>
+  <td style="color: white">P</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+</tr>
+
+<tr>
+  <td style="color: white">2</td>
+  <td style="color: white">Amin</td>
+  <td style="color: white">L</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">S</td>
+  <td style="color: white">H</td>
+</tr>
+
+<tr>
+  <td style="color: white">3</td>
+  <td style="color: white">Alika</td>
+  <td style="color: white">P</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+</tr>
+
+  </table>
+</section>
+<br><br>
+</section>
+</body>
+</html>
