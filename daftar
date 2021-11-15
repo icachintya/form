@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF00FF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DDA0DD;
+}
+
+.active {
+  background-color:#FF69B4;
+}
+header {
+  text-align: center;
+  background-color:#FFC0CB;
+}
+article {
+  text-align: center;
+  background-color:#FFFAF0;
+}
+section {
+  text-align: center;
+  background-color:#DDA0DD;
+}
+
+
+</style>
+</head>
+<body>
+<header> <br>
+  <h1 align="center" style="color: #1E90FF; font-size:240%;"> PEMPROGRAMAN WEB </h1>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+   <li><a href="daftar.html">Daftar</a></li>
+   <li><a href="absensi.html">Presensi</a></li>
+   <li><a href="login.html">Login</a></li>
+</ul>
+</header>
+<section>
+  <form>
+    <h2 style="color: white;"> FORM PENDAFTARAN </h2>
+    <label  style="color: #000000;"> Nama Depan: </label>
+    <input type="text" name="">
+    <label  style="color: #000000;"> Nama Belakang: </label>
+    <input type="text" name=""> <br> <br>
+    
+    <label  style="color: #000000;"> Tempat Lahir: </label>
+      <input list="kotalahir">
+      <datalist id="kotalahir">
+    <option value="Kab Madiun">
+    <option value="Kab Magetan">
+    <option value="Kab Ngawi">
+    <option value="Kota Madiun">
+    <option value="Kab Ponorogo">
+    </datalist> <br> <br>
+
+    <label  style="color: #000000;"> Tanggal lahir:</label>
+    <input type="date" id="Tanggal lahir" name="Tanggal lahir">
+      <input type="submit" value="Submit"> <br> <br>
+
+    <label  style="color: #000000;"> Jenis Kelamin: </label>
+    <input type="radio" id="Laki-Laki">
+    <label  style="color: white">Laki-Laki</label>
+    <input type="radio" id="Perempuan">
+    <label  style="color: white">Perempuan</label> <br><br>
+
+    <label  style="color: #000000;"> Hobby: </label>
+    <input type="checkbox" id="Olahraga" value="Olahraga">
+    <label  style="color: white"> Olahraga </label>
+    <input type="checkbox" id="Membaca" value="Membaca">
+    <label  style="color: white"> Hobby
+    <input type="checkbox" id="Treveling" value="Treveling">
+    <label  style="color: white"> Treveling</label> <br> <br>
+   
+    <label  style="color: #000000;"> Alamat: </label>
+    <textarea name="alamat" rows="3"> </textarea> <br> <br>
+    <input type="Submit" value="Simpan">
+    <input type="Reset">
+    
+  </form> <br><br>
+</section>
+</body>
+</html>
