@@ -1,0 +1,48 @@
+<html>
+<head>
+</head>
+<body>
+ <h1> FORM PENDAFTARAN </h1>
+ <form action="prosesdaftar.php" method="POST">
+  <label> NIS </label>
+  <input type="text" name="nisinput"><br>
+  
+  <label> Nama Depan </label>
+  <input type="text" name="namadepan_input"><br>
+  
+  <label> Nama Belakang </label>
+  <input type="text" name="namabelakang_input"><br>
+  
+  <label> Tempat Lahir <label>
+  <select name="tempatlahir_input">
+   <option value="kabmadiun">Kab Madiun </option>
+   <option value="kabngawi">Kab Ngawi </option>
+   <option value="kabmagetan">Kab Magetan </option>
+   <option value="kabnganjuk">Kab Nganjuk </option>
+   </select><br>
+   
+   <label> Tanggal Lahir </label>
+   <input type="date" name="tanggallahir_input"><br>
+   
+   <label> Jenis Kelamin </label>
+   <input type="radio" name="kelamin_input" value="Laki-laki">
+   <label>Laki-laki</label>  
+   <input type="radio" name="kelamin_input" value="Perempuan">
+   <label>Perempuan</label>  <br>  
+
+   <label> Hobby </label>
+   <input type="checkbox" name="hobbyinput[]" value="olahraga">
+   <label> Olah raga </label>
+     <input type="checkbox" name="hobbyinput[]" value="Membaca">
+   <label> membaca </label>
+     <input type="checkbox" name="hobbyinput[]" value="traveling">
+   <label> traveling </label><br>
+   
+   <label> Alamat </label>
+   <input type="textarea" rows="3" name="alamatinput"><br>
+   
+   <input type="Submit">
+   
+   </form>
+   </body>
+   </html>
