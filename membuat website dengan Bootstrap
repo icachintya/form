@@ -66,10 +66,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque qui quisquam quaerat sapiente eius possimus ullam modi animi voluptates!</p>
+            <p>Letak astronomis Indonesia yang beriklim tropis menyebabkan suhu, iklim dan cuaca mendukung terciptanya kekayaan flora dan fauna.</p>
           </div>
           <div class="col-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero dolor impedit, velit error deleniti quod, nobis cupiditate nihil unde quibusdam rem. Voluptatum, voluptas a?</p>
+            <p>Bersama saya kita akan mencicipi makanan yang dikonsumsi oleh masyarakat yang resepnya diwariskan secara turun-temurun dan memiliki ciri khas tertentu di setiap daerahnya</p>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
               <div class="card">
                 <img src="1.jpg" class="card-img-top" alt="1" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Sate Ayam.</p>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@
               <div class="card">
                 <img src="img/2.jpg" class="card-img-top" alt="2" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Semur jengkol.</p>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@
               <div class="card">
                 <img src="4.jpg" class="card-img-top" alt="4" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Rawon.</p>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@
               <div class="card">
                 <img src="6.jpg" class="card-img-top" alt="6" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Nasi Padang.</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@
               <div class="card">
                 <img src="5.jpg" class="card-img-top" alt="5" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Sayur Lodeh.</p>
                 </div>
               </div>
             </div>
